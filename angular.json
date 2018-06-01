@@ -25,7 +25,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/jquery.min.js",
+              "src/js/jquery.hoverdir.js",
+              "src/js/jquery.flexisel.js"
+            ]
           },
           "configurations": {
             "production": {

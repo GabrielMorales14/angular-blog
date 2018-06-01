@@ -1,0 +1,38 @@
+<div class="header">
+  <div class="container">
+    <div class="head">
+      <div class="navigation">
+         <span class="menu"></span> 
+          <ul class="navig">
+            <li><a routerLink="/Home">Home</a></li>
+            <li><a routerLink="/About">About</a></li>
+            <li><a routerLink="/Gallery">Gallery</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+      </div>
+      <div class="header-right">
+        <div class="head-main">
+          <a href="#"><img src="assets/images/logo-1.png" alt="logo"/></a>
+        </div>
+      </div>
+        <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!--slide-starts-->
+<div class="">
+  <div class="container">
+    <div class="">
+    <ul id="">
+      <li *ngFor="let photo of photos">
+        <a href="{{photo.url}}">
+          <div class="banner-1">
+            <img src="{{photo.thumbnailUrl}}" class="img-responsive" alt="">
+          </div>
+        </a>
+      </li>      
+    </ul>                              
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+</div>
